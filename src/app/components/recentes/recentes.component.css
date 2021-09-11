@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 300; 400 & display = swap');
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h6{
+  font-family: 'Open Sans', sans-serif;
+}
+
+span{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ff-open{
+  font-family: 'Open Sans', sans-serif;
+}
+.card-deck{
+  width: 100%;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+}
+
+.card-body{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.card-title{
+  width: 100%;
+  font-size: small;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.card-subtitle{
+  font-size: small;
+}
+
+.preco-antigo{
+  font-size: small;
+  margin-top: 0.4rem;
+}
+
+.preco-novo{
+  font-size: small;
+}
+
+.col-24 {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+@media (min-width: 768px) {
+
+  .col-md-24 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+}
+
+.color-text-01{
+  color: #e8e8e8;
+}
+
+img:hover {
+  filter: brightness(140%);
+  transition: 0.2s;
+}

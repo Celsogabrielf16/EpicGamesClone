@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 300; 400 & display = swap');
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h6{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ff-open{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.w-35{
+  width: 35%;
+}
+
+.bg-novosepopulares{
+  background-color: #2a2a2a;
+}
+
+.w-90{
+  width: 90%;
+}
+
+img{
+  border-radius: .25rem;
+}
+
+@media (min-width: 768px) {
+
+  .col-md-24 {
+    flex: 0 0 auto;
+    width: 32%;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-24 {
+    flex: 0 0 auto;
+    width: 32%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .col-xl-24 {
+    flex: 0 0 auto;
+    width: 32.4%;
+  }
+
+}
+
+.m-20{
+  margin: 0 1rem 0 1rem;
+}
+
+.preco-antigo{
+  text-decoration: line-through;
+  font-size: small;
+}
+
+.preco-novo{
+  font-size: small;
+}
+
+.m-16{
+  margin: 0 0.2rem;
+}
+
+.color-text-01{
+  color: #e8e8e8;
+}
+
+img:hover {
+  filter: brightness(140%);
+  transition: 0.2s;
+}

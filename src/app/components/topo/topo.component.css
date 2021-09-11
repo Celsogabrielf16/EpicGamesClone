@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 300; 400 & display = swap');
+
+a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ff-open{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu2{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.menu2 > li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.fundo-pesquisa, .form-control{
+  background-color: #252525;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.d-flex{
+  flex-direction: column;
+}
+
+.loja{
+  margin: 5px auto;
+  padding: 5px 20px;
+  width: 60%;
+}
+
+.py-10{
+  padding: 0 0 1.25rem 0;
+}
+
+.bg-fundo2{
+  background-color: rgba(18, 18, 18, 0.95);
+}
+
+.bg-navbar{
+  background-color: #2a2a2a;
+}
+
+.mt-6{
+  margin-top: 2rem;
+}
+
+.mt-7{
+  margin-top: 1.6rem;
+}
+
+.cor-btn{
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.color-text-01{
+  color: #e8e8e8;
+}

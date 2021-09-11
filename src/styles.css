@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #ff0000;
+  color: white;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.cor-fundo-gratis{
+  background-color: #ff0000;
+}
+
+.conteudo{
+  padding: 0px;
+  margin: 0px auto;
+}
+
+@media (min-width: 1200px){
+  .conteudo{
+    width:  90%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .conteudo{
+    width:  95%;
+  }
+}
+
+.bg-color-1{
+  background-color: #121212;
+}
